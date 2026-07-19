@@ -1,0 +1,23 @@
+# Generated data (reproducible from the generator — don't commit runtime output)
+data/
+*.ndjson
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Airflow runtime artifacts
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Docker
+*.env
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
